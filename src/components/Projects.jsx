@@ -6,7 +6,7 @@ import img4 from "../assets/images/spotify.png";
 import img5 from "../assets/images/doggos.png";
 import img6 from "../assets/images/targeta.png";
 import img7 from "../assets/images/sheldon.png";
-import img9 from "../assets/images/todolist.png";
+
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
 
@@ -20,12 +20,7 @@ function Projects() {
       description: "E-commerce - API Fake",
       img: img3,
     },
-    {
-      id: 2,
-      title: "Todo List",
-      description: "Lista de Tareas Add - delete",
-      img: img9,
-    },
+
     {
       id: 3,
       title: "Sheldon´s Game",
