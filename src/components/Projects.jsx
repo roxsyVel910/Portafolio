@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img1 from "../assets/images/todolis.png";
+import img1 from "../assets/images/todolist.png";
 import img2 from "../assets/images/datalovers.png";
 import img3 from "../assets/images/shopi.png";
 import img4 from "../assets/images/spotify.png";
