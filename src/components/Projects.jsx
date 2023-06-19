@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import img1 from "../assets/images/todolist.png";
+
 import img2 from "../assets/images/datalovers.png";
 import img3 from "../assets/images/shopi.png";
 import img4 from "../assets/images/spotify.png";
 import img5 from "../assets/images/doggos.png";
 import img6 from "../assets/images/targeta.png";
 import img7 from "../assets/images/sheldon.png";
-
+import img9 from "../assets/images/todolist.png";
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
 
@@ -24,7 +24,7 @@ function Projects() {
       id: 2,
       title: "Todo List",
       description: "Lista de Tareas Add - delete",
-      img: img1,
+      img: img9,
     },
     {
       id: 3,
