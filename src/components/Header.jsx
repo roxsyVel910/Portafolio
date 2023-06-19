@@ -18,7 +18,7 @@ function Header() {
           <div className="content lg:text-center">
             <h1 className="text-white text-5xl font-bold">Hola, Soy Roxsana</h1>
             <p className="text-white py-4 max-w-lg ">
-              Desarrolladora Web especializado en desarrollo front end.Con
+              Desarrolladora Web especializado en desarrollo front end con
               experiencia en todas las etapas del ciclo de desarrollo de
               proyectos web.
             </p>
