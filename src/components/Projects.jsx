@@ -1,12 +1,5 @@
 import React, { useState } from "react";
 
-import img2 from "../assets/images/datalovers.png";
-import img3 from "../assets/images/shopi.png";
-import img4 from "../assets/images/spotify.png";
-import img5 from "../assets/images/doggos.png";
-import img6 from "../assets/images/targeta.png";
-import img7 from "../assets/images/sheldon.png";
-
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
 
@@ -18,14 +11,19 @@ function Projects() {
       id: 1,
       title: "Duckling Shoes - E-commers",
       description: "E-commerce - API Fake",
-      img: img3,
+      img: "../assets/images/shopi.png",
     },
-
+    {
+      id: 2,
+      title: "Todo List",
+      description: "Lista de Tareas Add - delete",
+      img: "../assets/images/todolist.png",
+    },
     {
       id: 3,
       title: "Sheldon´s Game",
       description: "Piedra, Papel, Tijera , Lagrato, Spock",
-      img: img7,
+      img: "../assets/images/sheldon.png",
     },
   ];
   const projectsjs = [
@@ -33,19 +31,19 @@ function Projects() {
       id: 1,
       title: "Data Lovers",
       description: "Single-page application",
-      img: img2,
+      img: "../assets/images/datalovers.png",
     },
     {
       id: 2,
       title: "Social Network",
       description: "App Social Dogs",
-      img: img5,
+      img: "../assets/images/doggos.png",
     },
     {
       id: 3,
       title: "Card Validation",
       description: "Validacion de Tajeta con Algoritmo de Luhn",
-      img: img6,
+      img: "../assets/images/targeta.png",
     },
   ];
   const projectsmq = [
@@ -53,7 +51,7 @@ function Projects() {
       id: 1,
       title: "Spotify´s Clon",
       description: "Maquetacion con html /css",
-      img: img4,
+      img: "../assets/images/shopi.png",
     },
   ];
 
